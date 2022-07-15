@@ -177,13 +177,10 @@ a {
   {
     fill: #fee402;
   }
-
   28%
   {
     fill: #00f094;
   }
-
-
 }
 
 @keyframes appearPoint {
@@ -297,7 +294,7 @@ a {
 
 .container-2 {
   opacity: 0;
-  animation: opacity-container-2 ease 2s 10s forwards;
+  animation: opacity-container-2 ease 2s 9s forwards;
 }
 
 @keyframes opacity-container-2 {
