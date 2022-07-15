@@ -297,7 +297,7 @@ a {
 
 .container-2 {
   opacity: 0;
-  animation: opacity-container-2 ease 2s 8s forwards;
+  animation: opacity-container-2 ease 2s 10s forwards;
 }
 
 @keyframes opacity-container-2 {
