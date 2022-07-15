@@ -91,6 +91,12 @@ a {
   font-family: "futura";
 }
 
+/*image café*/
+.cafe {
+  width: 60%;
+  margin-top: -100px;
+}
+
 /* animation logo avec video */
 
 .svg-logo-2 {
@@ -249,10 +255,18 @@ a {
 }
 
 /* responsaive  */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   .cafe {
     width: 70%;
+    margin-top: 0px;
   }
+
+}
+@media screen and (max-width: 500px) {
+
+}
+@media screen and (max-width: 700px) {
+
   .mg-t {
     padding-top: 60px;
   }
@@ -266,12 +280,15 @@ a {
   .justify {
     text-align: justify;
   }
+ 
 }
 @media screen and (max-width: 991px) {
   .mg-t {
     padding-top: 50px;
   }
-  img .cafe {
-    width: 2px;
+  .cafe {
+    width: 50%;
+    margin-top: 0px;
   }
+
 }
